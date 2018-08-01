@@ -1,0 +1,269 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>马甲线系列</title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+	
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>JSP Page</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="Lib/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="Lib/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+
+<style type="text/css">
+		html.body{
+				margin: 0;padding: 0;height: 100%;
+			}
+			#container{
+				min-height: 100%;
+				height: auto;
+				height: 100%;
+				/*position: relative;*/
+			}
+			#page
+			{
+				padding-bottom:300px ;
+			}
+			#footer{
+				position: relative;
+				margin-top: -300px;
+				bottom: 0;
+				width: 100%;
+				height: 300px;
+				background-color: pink;
+				clear: both;
+				
+			}
+</style>
+	</head>
+
+	<body oncontextmenu="return false">
+<script language="Javas cript">
+<!--
+if (window.Event)
+document.captureEvents(Event.MOUSEUP);
+function nocontextmenu()
+event.cancelBubble = true
+event.returnvalue = false;
+return false;
+function norightclick(e)
+if (window.Event)
+if (e.which == 2 || e.which == 3)
+return false;
+else
+if (event.button == 2 || event.button == 3)
+event.cancelBubble = true
+event.returnvalue = false;
+return false;
+document.oncontextmenu = nocontextmenu; // for IE5+
+document.onmousedown = norightclick; // for all others
+//-->
+</script>
+		<!--head-->
+		<div id="container">
+
+			<div id="header">
+
+		<!--导航栏-->
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="">
+			<div class="container-fluid" style="background-color: #000000;height: 125px;">
+				<div class="navbar-header" style=" ">
+					<a class="navbar-brand" href="#">茉茜朵朵</a>
+				</div>
+				<!--<div>
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">iOS</a>
+						</li>
+						<li>
+							<a href="#">SVN</a>
+						</li>
+						<li class="dropdown">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Java <b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">jmeter</a>
+								</li>
+								<li>
+									<a href="#">EJB</a>
+								</li>
+								<li>
+									<a href="#">Jasper Report</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">分离的链接</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="#">另一个分离的链接</a>
+								</li>
+							</ul>
+						</li>
+
+					</ul>
+				</div>-->
+
+				<div>
+					<div style=" position:absolute; top:70%; left:20%;"> 
+										<a href="index.jsp"><span style="font-size: 18px; color: white;">首页</span></a>
+
+					<a href="dayangba.jsp"><span style="font-size: 18px;margin-left: 20px;color: white;">大氧吧系列</span></a>
+					<a href="connectclothes.jsp"><span style="font-size: 18px;margin-left: 20px;color: white;">男士能量系列</span></a>
+					
+					<a href="majiaxian.jsp"><span style="font-size: 18px;color: pink;margin-left: 20px;">马甲线系列</span></a>
+					<a href="tuiliaoku.jsp"><span style="font-size: 18px;margin-left: 20px;color: white;">臀疗裤系列</span></a>
+					
+					<a href="chanhou.jsp"><span style="font-size: 18px;color: white;margin-left: 20px;">产后修复系列</span></a>
+					</div>
+						<div style=" position:absolute;top: 45%;left: 50%; transform: translate(-50%, -50%);">
+
+						 
+								<img alt="" src="img/logo6.png" height="40px" width="300px">
+							 
+						</div>
+
+					</div>
+		</nav>
+			</div>
+		
+
+				<div style="padding-top: 190px;"></div>
+
+				<!--middle-->
+	<div id="page">
+				<ul class="polaroids">
+					<li>
+						<a href="#" ><img src="img/1.jpg" alt="Roeland!"></a>
+					</li>
+					<li>
+						<a href="#" ><img src="img/2.jpg" alt="Discussion"></a>
+					</li>
+					 
+					<li>
+						<a href="#"><img src="img3/7.jpg" alt="Evil Matt Coding" height="190px"></a>
+					</li>
+					<li>
+						<a href="#" ><img src="img3/8.jpg" alt="Scribbles" height="190px"></a>
+					</li>
+					<li>
+						<a href="#"><img src="img3/1.jpg" alt="Amanda Glares..." height="190px"></a>
+					</li>
+					<li>
+						<a href="#" ><img src="img3/2.jpg" alt="The Dougernaut" height="190px"></a>
+					</li>
+					<li>
+						<a href="#" ><img src="img3/9.jpg" alt="I See You!" height="190px"></a>
+					</li>
+					<li>
+						<a href="#"><img src="img3/3.jpg" alt="Rock Hard Balls"></a>
+					</li>
+						<li>
+						<a href="#" ><img src="img3/12.jpg" alt="Sneakers & Stilettos"></a>
+					</li>
+					<li>
+						<a href="#" ><img src="img3/5.jpg" alt="Sneakers & Stilettos"></a>
+					</li>
+					<li>
+						<a href="#" ><img src="img3/6.jpg" alt="Sneakers & Stilettos"></a>
+					</li>
+					<li>
+						<a href="#" ><img src="img3/11.jpg" alt="Boris " Tatooine ""></a>
+					</li>
+					<li>
+						<a href="#" ><img src="img3/4.jpg" alt="Bocce Ball"></a>
+					</li>
+					<li>
+						<a href="#"  > <img src="img2/1.jpg" alt="Roeland!"></a>
+					</li>
+					<li>
+						<a href="#"  ><img src="img2/2.jpg" alt="Discussion"></a>
+					</li>
+					<li>
+						<a href="#"  ><img src="img2/3.jpg" alt="A Hearty Laugh"></a>
+					</li>
+				 
+					<li>
+						<a href="#" ><img src="img2/6.jpg"  alt="Amanda Glares..."></a>
+					</li>
+					<li>
+						<a href="#"  ><img src="img2/7.jpg"  alt="The Dougernaut"></a>
+					</li>
+				 
+					
+				
+				</ul>
+
+			</div>
+
+			<!--底部-->
+
+		<footer  id="footer" class="spice-footer" style="background-color: pink;height: 300px;">
+
+			<div id="" style="height: 200px; float: right;padding-top: 50px;">
+				<div id="">
+					<img src="img1/d11.jpg" height="250px" />
+
+				</div>
+
+			</div>
+			<div style="padding: 50px 0px 0px 20px;">
+			<div  class="dibu">
+				<span class="dibu">
+						公司名称:佛山市 琴米欧服饰有限公司
+					</span>
+					</div>
+			<div  class="dibu">
+				<span class="dibu">
+						公司地址:广东省佛山市南海区大沥镇盐步永青路69号佛山市琴米欧服饰有限公司
+					</span>
+					</div>
+					<div class="dibu">
+					<span class="dibu">
+						公司联系人：孙善凯（188232238873），微信：sunshankai1986
+					</span></div>
+					<div  >
+					<span class="dibu" >
+						技术支持联系人：涂翠红（13058311352），（18038845123）
+					</span></div>
+			</div>
+
+		</footer>
+
+		
+
+			<!--底部-->
+
+			<!--<footer class="navbar navbar-inverse navbar-bottom" style="background-color: pink;height: 300px;">-->
+
+			<!--</footer>-->
+
+			<!--js-->
+
+			<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+			<script type="text/javascript" src="Lib/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+		</div>
+	</body>
+
+</html>
