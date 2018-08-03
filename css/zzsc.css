@@ -334,3 +334,13 @@ body{background-color: #1A1A1A}
 .tn3.album div, .tn3.album li h4, .tn3.album li div{
     display:none;
 }
+   /*底部栏*/
+    .spice-footer{
+    	background-color: greenyellow;
+    }
+    .dibu{
+    	font-size: 15px;
+    	font-family: "微软雅黑";
+    	padding: 15px 0px 15px 0px;color:#000000;
+    }
+    
