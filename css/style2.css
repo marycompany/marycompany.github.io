@@ -23,7 +23,7 @@
     transform-style: preserve-3d;
     -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
-    width: 200px;
+    width: 50%;
     z-index: 1000;
 }
 
@@ -68,7 +68,7 @@ item img:hover{
   margin-top: -12.5px;
   position: absolute;
   top: 50%;
-  width:60%;
+  width:5%;
 }
 
 .tc-next {
