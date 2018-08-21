@@ -63,11 +63,11 @@ item img:hover{
 
 .tc-btn-container {
   display: block;
-  float: left;
+  
   height: 35px;
   margin-top: -12.5px;
   position: absolute;
-  top: 50%;
+  top: 80%;
   width:5%;
 }
 
