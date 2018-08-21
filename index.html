@@ -36,7 +36,19 @@ maximum-scale=1.0, user-scalable=no"/>
 		<script type="text/javascript" async="" src="js/amo3 .js"></script>
 	 
 	<script type="text/javascript">
-
+$(function(){ 
+	var winWidth,winHeight;  
+	     Resize = function(){      
+	winWidth = $(window).width(),     
+		winHeight= $(window).height();    }});
+		
+		
+		
+		
+		
+		
+		
+		
     var base = "/zh";
 
     var staticbase = "https://res.gucci.cn";
@@ -80,7 +92,7 @@ maximum-scale=1.0, user-scalable=no"/>
   </head>
   
 
-	<body oncontextmenu="return false">
+	<body oncontextmenu="return false"  onResize="Resize()" onLoad="Resize()">
 
 	
 	
@@ -104,8 +116,8 @@ maximum-scale=1.0, user-scalable=no"/>
 			 
 <div data-role="header" data-position="fixed">	
 				 
-					<div style=" position:absolute; top:70%; left:20%;"> 
-										<a href="https://marycompany.github.io/index.html"><span style="font-size: 18px;margin-left: 20px;color: pink;">首页</span></a>
+					<div style=" position:absolute; top:70%; left:15%;"> 
+					<a href="https://marycompany.github.io/index.html"><span style="font-size: 18px;margin-left: 20px;color: pink;">首页</span></a>
 
 					<a href=" https://marycompany.github.io/dayangba.html"><span style="font-size: 18px;margin-left: 20px;color: white;">大氧吧系列</span></a>
 					<a href="https://marycompany.github.io/connectclothes.html"><span style="font-size: 18px;margin-left: 20px;color: white;">男士能量系列</span></a>
