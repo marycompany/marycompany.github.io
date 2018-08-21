@@ -14,8 +14,8 @@ body{background-color: #1A1A1A}
 
 .tn3-gallery {
     position: relative;
-    width: 620px;
-    height: 425px;
+    width:90%;
+    height: 80%;
     background-color: #000000;
     line-height: normal;
 }
