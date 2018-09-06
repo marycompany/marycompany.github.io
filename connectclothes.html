@@ -231,7 +231,7 @@ document.onmousedown = norightclick; // for all others
           var t = setInterval(autoplay, 1000);
           function autoplay() {
               i++;
-              if (i > 4) i = 0;
+              if (i > 17) i = 0;
               $(".btn ul li").eq(i).addClass("one").siblings().removeClass("one");
               $(".pic a").eq(i).stop().fadeIn(500).show().siblings().stop().fadeIn(500).hide();
           }
