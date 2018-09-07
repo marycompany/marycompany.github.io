@@ -220,7 +220,9 @@ document.onmousedown = norightclick; // for all others
                     <li>15</li>
                     <li>16</li>
                     <li>17</li>
-			
+			     <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
                 </ul>
             </div>
         </div>
@@ -247,7 +249,7 @@ document.onmousedown = norightclick; // for all others
           var t = setInterval(autoplay, 1000);
           function autoplay() {
               i++;
-              if (i > 17) i = 0;
+              if (i >20) i = 0;
               $(".btn ul li").eq(i).addClass("one").siblings().removeClass("one");
               $(".pic a").eq(i).stop().fadeIn(500).show().siblings().stop().fadeIn(500).hide();
           }
